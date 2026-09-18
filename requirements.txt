@@ -1,0 +1,12 @@
+numpy == 1.26.4
+opencv-python == 4.12.0.88
+mss == 10.1.0           #for screen capture
+pyautogui == 0.9.54     #for cursor simulation
+matplotlib == 3.10.6    #for visualizing training results
+pillow == 11.3.0        #for image handling
+tqdm == 4.67.1          #for progress bars during training
+jupyter == 1.1.1        #for testing
+
+#torch has to be installed manually, I can't figure out how to get the cuda enabled version
+#of torch installed through this
+#pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
